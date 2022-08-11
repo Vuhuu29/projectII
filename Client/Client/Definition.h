@@ -1,0 +1,16 @@
+#pragma once
+enum MessageType
+{
+	PRIVATE_CHAT = 1,
+	END_PRIVATE_CHAT = 2,
+	SIGNUP = 3,
+	SU_SUCCESS = 4,
+	SU_FAILURE = 5,
+	LOGIN = 6,
+	LI_SUCCESS = 7,
+	LI_FAILURE = 8,
+	CREATE_PRIVATE_CHAT = 9,
+	C_PC_SUCCESS = 10,
+	C_PC_FAILURE = 11,
+	LIST_USER_ONLINE = 12
+};

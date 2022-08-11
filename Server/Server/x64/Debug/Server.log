@@ -1,0 +1,15 @@
+﻿  ChatServer.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\ChatServer.cpp(19,6): warning C4101: 'iSendResult': unreferenced local variable
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\ChatServer.cpp(220,18): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\ChatServer.cpp(247,18): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\ChatServer.cpp(267,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\ChatServer.cpp(139,6): warning C4101: 'len': unreferenced local variable
+  Server.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\Server.cpp(131,8): warning C4101: 'buf': unreferenced local variable
+C:\Users\thira\Documents\GitHub\projectII\Server\Server\Server.cpp(269,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ThreadFunc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...
+  Server.vcxproj -> C:\Users\thira\Documents\GitHub\projectII\Server\x64\Debug\Server.exe
