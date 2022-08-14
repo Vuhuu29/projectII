@@ -1,13 +1,30 @@
-﻿  Client.cpp
+﻿  ChatClient.cpp
   _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-C:\Users\thira\source\repos\Client\Client\resource.h(26,1): warning C4005: 'IDC_STATIC': macro redefinition
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Resource.h(25,1): warning C4005: 'IDC_STATIC': macro redefinition
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxres.h(343): message : see previous definition of 'IDC_STATIC'
-C:\Users\thira\source\repos\Client\Client\Client.cpp(263,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(263,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(324,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(452,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(502,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(545,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(580,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\thira\source\repos\Client\Client\Client.cpp(775,93): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Client.vcxproj -> C:\Users\thira\source\repos\Client\x64\Debug\Client.exe
+  Client.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\resource.h(25,1): warning C4005: 'IDC_STATIC': macro redefinition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxres.h(343): message : see previous definition of 'IDC_STATIC'
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(263,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(263,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(324,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(452,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(502,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(545,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(580,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\Client.cpp(758,93): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  PrivateChatBox.cpp
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(14,239): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(14,218): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(14,198): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(14,177): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(15,18): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(16,15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(62,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(65,29): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thira\Documents\GitHub\projectII\Client\Client\PrivateChatBox.cpp(69,27): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  ThreadFunc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...
+  Client.vcxproj -> C:\Users\thira\Documents\GitHub\projectII\Client\x64\Debug\Client.exe

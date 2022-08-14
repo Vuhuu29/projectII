@@ -736,23 +736,6 @@ LRESULT CALLBACK ChatBoxProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lPar
                 delete graphics;
             break;
         }
-        case IDC_ATTACH:
-        {
-            auto graphics = new Graphics(dit->hDC);
-            Gdiplus::SolidBrush brush(Gdiplus::Color(255, 160, 160, 160));
-            graphics->FillRectangle(&brush, 0, 0, 75, 75);
-
-            Gdiplus::FontFamily  fontFamily(L"Arial");
-            Gdiplus::Font        font(&fontFamily, 17, Gdiplus::FontStyleBold, Gdiplus::UnitPixel);
-            Gdiplus::PointF      pointF(10, 30);
-            Gdiplus::SolidBrush  solidBrush(Gdiplus::Color(255, 255, 255, 255));
-
-            graphics->DrawString(L"Attach", -1, &font, pointF, &solidBrush);
-
-            if (graphics)
-                delete graphics;
-            break;
-        }
         }
         break;
     }

@@ -12,9 +12,8 @@ PrivateChatBox* PrivateChatBox::create(HWND hParent, HINSTANCE hInst, Point pos,
 	cb->_size = size;
 	cb->_parterUsername = partner;
 	cb->_hMessageBox = CreateWindowEx(WS_EX_RIGHTSCROLLBAR, L"edit", L"", WS_VISIBLE | WS_VSCROLL | WS_CHILD | ES_AUTOVSCROLL | ES_MULTILINE | ES_READONLY | WS_BORDER, size.Width * 0.025, size.Height * 0.025, size.Width * 0.925, size.Height * 0.635, cb->_hWnd, (HMENU)1000, hInst, 0);
-	cb->_hTextBox = CreateWindow(L"edit", L"", WS_VISIBLE | WS_CHILD | ES_MULTILINE | WS_BORDER, size.Width * 0.025, size.Height * 0.7, size.Width * 0.55, size.Height * 0.15, cb->_hWnd, 0, hInst, 0);
-	cb->_hSend = CreateWindow(L"button", L"Send", WS_VISIBLE | WS_CHILD | BS_OWNERDRAW, size.Width * 0.6, size.Height * 0.7, size.Width * 0.15, size.Height * 0.15, cb->_hWnd, (HMENU)IDC_SEND, hInst, 0);
-	cb->_hAttach = CreateWindow(L"button", L"Attach", WS_VISIBLE | WS_CHILD | BS_OWNERDRAW, size.Width * 0.775, size.Height * 0.7, size.Width * 0.15, size.Height * 0.15, cb->_hWnd, (HMENU)IDC_ATTACH, hInst, 0);
+	cb->_hTextBox = CreateWindow(L"edit", L"", WS_VISIBLE | WS_CHILD | ES_MULTILINE | WS_BORDER, size.Width * 0.025, size.Height * 0.7, size.Width * 0.725, size.Height * 0.15, cb->_hWnd, 0, hInst, 0);
+	cb->_hSend = CreateWindow(L"button", L"Send", WS_VISIBLE | WS_CHILD | BS_OWNERDRAW, size.Width * 0.775, size.Height * 0.7, size.Width * 0.15, size.Height * 0.15, cb->_hWnd, (HMENU)IDC_SEND, hInst, 0);
 	return cb;
 }
 

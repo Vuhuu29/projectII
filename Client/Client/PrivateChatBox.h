@@ -15,7 +15,7 @@ using namespace std;
 class PrivateChatBox
 {
 private:
-	HWND _hParent, _hWnd, _hMessageBox, _hTextBox, _hSend, _hAttach;
+	HWND _hParent, _hWnd, _hMessageBox, _hTextBox, _hSend;
 	HINSTANCE _hInts;
 	HANDLE _hSentFile, _hReceiveFile;
 	wstring _username, _parterUsername, _filename;

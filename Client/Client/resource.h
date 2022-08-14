@@ -16,7 +16,6 @@
 #define IDC_LOGIN                       112
 #define IDC_CREATE                      113
 #define IDC_SEND						114
-#define IDC_ATTACH						115
 #define IDC_PRIVATECHAT					116
 #define IDC_GROUPCHAT					117
 #define IDC_CHAT						118
